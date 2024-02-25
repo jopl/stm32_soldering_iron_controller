@@ -19,8 +19,11 @@ static void SETTINGS_create(screen_t *scr) {
   //  [ SETTINGS MAIN SCREEN ]
   //
   newWidget(&w,widget_combo,scr, NULL);
-
-  newComboScreen(w, strings[lang].settings_IRON, screen_iron, NULL);
+  char * StringProfile = (char*) malloc((strlen(profileStr[getCurrentProfile()])+ strlen(strings[lang].settings_IRON))*sizeof(char));
+  strcpy(StringProfile, strings[lang].settings_IRON);
+  strcat(StringProfile, profileStr[getCurrentProfile()]);
+  newComboScreen(w, StringProfile, screen_iron, NULL);
+  //newComboScreen(w, strings[lang].settings_IRON, screen_iron, NULL);
   newComboScreen(w, strings[lang].settings_SYSTEM, screen_system, NULL);
   #ifdef ENABLE_DEBUG_SCREEN
   newComboScreen(w, strings[lang].settings_DEBUG, screen_debug, &comboitem_system_debug);
