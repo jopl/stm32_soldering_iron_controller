@@ -26,7 +26,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "BOOST",
       .main_mode_Boost_xpos = 41,
 
-      .settings_IRON = "IRON",
+      .settings_IRON = "PROFILE ",
       .settings_SYSTEM = "SYSTEM",
       .settings_DEBUG = "DEBUG",
       .settings_EDIT_TIPS = "EDIT TIPS",
@@ -206,7 +206,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "БУСТ",
       .main_mode_Boost_xpos = 48,
 
-      .settings_IRON = "ПАЯЛЬНИК",
+      .settings_IRON = "ПРОФИЛЬ ",
       .settings_SYSTEM = "СТАНЦИЯ",
       .settings_DEBUG = "ОТЛАДКА",
       .settings_EDIT_TIPS = "КАРТРИДЖ",
@@ -385,7 +385,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "BOOST",
       .main_mode_Boost_xpos = 41,
 
-      .settings_IRON = "LÖDKOLV",
+      .settings_IRON = "PROFIL ",
       .settings_SYSTEM = "SYSTEM",
       .settings_DEBUG = "DEBUG",
       .settings_EDIT_TIPS = "SPETSAR",
@@ -565,7 +565,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "BOOST",
       .main_mode_Boost_xpos = 41,
 
-      .settings_IRON = "LÖTKOLBEN",
+      .settings_IRON = "PROFILE ",
       .settings_SYSTEM = "SYSTEM",
       .settings_DEBUG = "DEBUG",
       .settings_EDIT_TIPS = "LÖTSPITZEN EDIT",
@@ -745,7 +745,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "DARBE",
       .main_mode_Boost_xpos = 41,
 
-      .settings_IRON = "ISITICI",
+      .settings_IRON = "PROFIL ",
       .settings_SYSTEM = "SİSTEM",
       .settings_DEBUG = "HATA AYIKLAMA",
       .settings_EDIT_TIPS = "UÇ DÜZENLE",
@@ -925,7 +925,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "超溫",
       .main_mode_Boost_xpos = 42,
 
-      .settings_IRON = "烙鐵設定",
+      .settings_IRON = "烙鐵類型 ",
       .settings_SYSTEM = "系統設定",
       .settings_DEBUG = "偵錯資訊",
       .settings_EDIT_TIPS = "編輯烙鐵頭",
@@ -1105,7 +1105,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .main_mode_Boost = "ПОДСИЛВАНЕ",
       .main_mode_Boost_xpos = 41,
 
-      .settings_IRON = "ПОЯЛНИК",
+      .settings_IRON = "ПРОФИЛ ",
       .settings_SYSTEM = "СТАНЦИЯ",
       .settings_DEBUG = "ГРЕШКИ",
       .settings_EDIT_TIPS = "ВЪРХОВЕ",
