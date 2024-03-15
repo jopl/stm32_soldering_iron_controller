@@ -11,6 +11,7 @@ Currently, these are the available languages:
 - **Russian**<br>
 - **Swedish**<br>
 - **Turkish**<br>
+- **Czech**<br>
 
 You can select between the following profiles:
 - **Hakko T12** (T15 Series in North America & EU) This is the handle normally used with these controllers.<br>
