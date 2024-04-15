@@ -1625,7 +1625,7 @@ const strings_t strings[LANGUAGE_COUNT] = {
       .ERROR_EXCEEDED = "PŘESAHUJE",
       .ERROR_UNKNOWN = "NEZNÁMÁ CHYBA",
       .ERROR_SYSTEM_HALTED = "ZASTAVENÍ SYSTÉMU",
-      .ERROR_BTN_RESET = "Použij tlačítko pro RESET",
+      .ERROR_BTN_RESET = "Tlačítko: RESET",
 
       .OffOn =       { "VYP", "ZAP" },
       .DownUp =      { "GND", "Vdd" },
